@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      -demo
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+server:
+  error:
+    whitelabel:
+      enabled: false    

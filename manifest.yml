@@ -1,0 +1,7 @@
+---
+applications:
+- name: restwebservice1234
+  memory: 1gb
+  instances: 1 
+  path: target/demo123-1.jar
+  services:  - MYSQL
