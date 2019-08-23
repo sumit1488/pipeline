@@ -10,4 +10,10 @@ public class CustomerControllerTest {
 	public void testController() {
 		assertTrue(1==1);
 	}
+	
+
+	@Test
+	public void testController1() {
+		assertTrue(1==1);
+	}
 }
